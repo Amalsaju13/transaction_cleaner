@@ -1,0 +1,31 @@
+{
+  "input_rows": 73,
+  "valid_rows": 55,
+  "invalid_rows": 18,
+  "row_count_reconciles": true,
+  "duplicate_counts": {
+    "repeated_transaction_id_groups": 2,
+    "rows_with_repeated_transaction_id": 4,
+    "probable_duplicate_groups": 1,
+    "probable_duplicate_extra_rows": 1
+  },
+  "status_counts": {
+    "cancelled": 13,
+    "paid": 46,
+    "pending": 13,
+    "refund": 1
+  },
+  "revenue": {
+    "definition": "valid paid amounts minus valid refund amounts; pending/cancelled/unknown excluded",
+    "valid_paid_total": "83051.00",
+    "valid_refund_total": "1200.00",
+    "net_revenue": "81851.00"
+  },
+  "assumptions": [
+    "Slash dates in DD/MM/YYYY format are interpreted day-first.",
+    "Amounts must be non-negative numeric values; zero is allowed.",
+    "Unknown statuses are normalized to 'unknown' and invalidate the row.",
+    "Every row with a repeated transaction ID is invalidated.",
+    "For probable duplicates, the first matching fingerprint is retained and later matches are invalidated."
+  ]
+}

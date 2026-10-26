@@ -1,0 +1,74 @@
+source_row,transaction_id,customer_name_original,customer_name_normalized,amount,transaction_date,status,order_id,is_valid,issues
+2,TX0001,Anita Rao,Anita Rao,237.00,2026-09-03,paid,ORD004,true,
+3,TX0002,John Smith,John Smith,374.00,2026-09-04,paid,ORD007,true,
+4,TX0003,Joseph Mathew,Joseph Mathew,511.00,2026-09-05,pending,ORD010,true,
+5,TX0004,Arun Kumar,Arun Kumar,648.00,2026-09-06,cancelled,ORD013,true,
+6,TX0005,Farah Ali,Farah Ali,785.00,2026-09-07,paid,ORD016,true,
+7,TX0006,Ravi Pillai,Ravi Pillai,922.00,2026-09-02,paid,ORD019,true,
+8,TX0007,Meera Nair,Meera Nair,1059.00,2026-09-03,paid,ORD022,true,
+9,TX0008,Neha Das,Neha Das,1196.00,2026-09-04,pending,ORD025,false,duplicate_transaction_id
+10,TX0009, priya menon ,Priya Menon,1333.00,2026-09-05,cancelled,ORD028,true,
+11,TX0010,Kiran Shah,Kiran Shah,1470.00,2026-09-06,paid,ORD031,true,
+12,TX0011,SARA THOMAS,Sara Thomas,1607.00,2026-09-07,paid,ORD034,true,
+13,TX0012,Aarav Shah,Aarav Shah,1744.00,2026-09-02,paid,ORD037,true,
+14,TX0013,Anita Rao,Anita Rao,1881.00,2026-09-03,pending,ORD040,true,
+15,TX0014,John Smith,John Smith,2018.00,2026-09-04,cancelled,ORD043,true,
+16,TX0015,Joseph Mathew,Joseph Mathew,2155.00,2026-09-05,paid,ORD046,false,duplicate_transaction_id
+17,TX0016,Arun Kumar,Arun Kumar,2292.00,2026-09-06,paid,ORD049,true,
+18,TX0017,Farah Ali,Farah Ali,2429.00,,paid,ORD003,false,invalid_or_unrecognized_date
+19,TX0018, ravi pillai ,Ravi Pillai,2566.00,2026-09-02,pending,ORD006,true,
+20,TX0019,Meera Nair,Meera Nair,,2026-09-03,cancelled,ORD009,false,invalid_amount
+21,TX0020,Neha Das,Neha Das,2840.00,2026-09-04,paid,ORD012,true,
+22,TX0021,Priya Menon,Priya Menon,2977.00,2026-09-05,paid,ORD015,true,
+23,TX0022,KIRAN SHAH,Kiran Shah,3114.00,2026-09-06,paid,ORD018,true,
+24,TX0023,Sara Thomas,Sara Thomas,,2026-09-07,pending,ORD021,false,invalid_amount
+25,TX0024,Aarav Shah,Aarav Shah,3388.00,2026-09-02,cancelled,ORD024,true,
+26,TX0025,Anita Rao,Anita Rao,3525.00,2026-09-03,paid,ORD027,true,
+27,TX0026,John Smith,John Smith,3662.00,2026-09-04,paid,ORD030,true,
+28,TX0027, joseph mathew ,Joseph Mathew,3799.00,2026-09-05,paid,ORD033,true,
+29,TX0028,Arun Kumar,Arun Kumar,3936.00,2026-09-06,pending,ORD036,true,
+30,TX0029,Farah Ali,Farah Ali,,2026-09-07,cancelled,ORD039,false,invalid_amount
+31,TX0030,Ravi Pillai,Ravi Pillai,4210.00,2026-09-02,paid,ORD042,true,
+32,TX0031,Meera Nair,Meera Nair,4347.00,2026-09-03,paid,ORD045,true,
+33,TX0032,Neha Das,Neha Das,4484.00,2026-09-04,paid,ORD048,true,
+34,TX0033,PRIYA MENON,Priya Menon,4621.00,2026-09-05,pending,ORD002,true,
+35,TX0034,Kiran Shah,Kiran Shah,4758.00,,cancelled,ORD005,false,invalid_or_unrecognized_date
+36,TX0035,Sara Thomas,Sara Thomas,4895.00,2026-09-07,paid,ORD008,true,
+37,TX0036, aarav shah ,Aarav Shah,5032.00,2026-09-02,paid,ORD011,true,
+38,TX0037,Anita Rao,Anita Rao,5169.00,2026-09-03,paid,ORD014,true,
+39,TX0038,John Smith,John Smith,,2026-09-04,pending,ORD017,false,invalid_amount
+40,TX0039,Joseph Mathew,Joseph Mathew,5443.00,2026-09-05,cancelled,ORD020,true,
+41,TX0040,Arun Kumar,Arun Kumar,5580.00,2026-09-06,paid,ORD023,true,
+42,TX0041,Farah Ali,Farah Ali,117.00,2026-09-07,paid,ORD026,true,
+43,TX0042,Ravi Pillai,Ravi Pillai,254.00,2026-09-02,paid,ORD029,true,
+44,TX0043,Meera Nair,Meera Nair,391.00,2026-09-03,pending,ORD032,true,
+45,TX0044,NEHA DAS,Neha Das,528.00,2026-09-04,cancelled,ORD035,true,
+46,TX0045, priya menon ,Priya Menon,665.00,2026-09-05,paid,ORD038,true,
+47,TX0046,Kiran Shah,Kiran Shah,,2026-09-06,paid,ORD041,false,invalid_amount
+48,TX0047,Sara Thomas,Sara Thomas,939.00,2026-09-07,paid,ORD044,true,
+49,TX0048,Aarav Shah,Aarav Shah,1076.00,2026-09-02,pending,ORD047,true,
+50,TX0049,Anita Rao,Anita Rao,1213.00,2026-09-03,cancelled,ORD001,true,
+51,TX0050,John Smith,John Smith,1350.00,2026-09-04,paid,ORD004,true,
+52,TX0051,Joseph Mathew,Joseph Mathew,1487.00,,paid,ORD007,false,invalid_or_unrecognized_date
+53,TX0052,Arun Kumar,Arun Kumar,1624.00,2026-09-06,paid,ORD010,true,
+54,TX0053,Farah Ali,Farah Ali,1761.00,2026-09-07,pending,ORD013,true,
+55,TX0054, ravi pillai ,Ravi Pillai,1898.00,2026-09-02,cancelled,ORD016,true,
+56,TX0055,MEERA NAIR,Meera Nair,2035.00,2026-09-03,paid,ORD019,true,
+57,TX0056,Neha Das,Neha Das,2172.00,2026-09-04,paid,ORD022,true,
+58,TX0057,Priya Menon,Priya Menon,,2026-09-05,paid,ORD025,false,invalid_amount
+59,TX0058,Kiran Shah,Kiran Shah,,2026-09-06,pending,ORD028,false,invalid_amount
+60,TX0059,Sara Thomas,Sara Thomas,2583.00,2026-09-07,cancelled,ORD031,true,
+61,TX0060,Aarav Shah,Aarav Shah,2720.00,2026-09-02,paid,ORD034,true,
+62,TX0061,Anita Rao,Anita Rao,2857.00,2026-09-03,paid,ORD037,true,
+63,TX0062,John Smith,John Smith,2994.00,2026-09-04,paid,ORD040,true,
+64,TX0063, joseph mathew ,Joseph Mathew,3131.00,2026-09-05,pending,ORD043,true,
+65,TX0064,Arun Kumar,Arun Kumar,3268.00,2026-09-06,cancelled,ORD046,true,
+66,TX0008, AARAV SHAH ,Aarav Shah,1196.00,2026-09-02,paid,ORD025,false,duplicate_transaction_id
+67,TX0015,Sara Thomas,Sara Thomas,999.00,2026-09-03,paid,ORD099,false,duplicate_transaction_id
+68,TX0065,Priya Menon,Priya Menon,0.00,2026-09-03,paid,ORD077,true,
+69,TX0066,Neha Das,Neha Das,,2026-09-03,paid,ORD078,false,invalid_amount
+70,TX0067,Ravi Pillai,Ravi Pillai,1400.00,,paid,ORD079,false,invalid_or_unrecognized_date
+71,TX0068,,,500.00,2026-09-03,paid,ORD080,false,missing_customer_name
+72,TX0069,Meera Nair,Meera Nair,1200.00,2026-09-03,refund,ORD081,true,
+73,TX0070,Meera Nair,Meera Nair,1200.00,2026-09-03,paid,ORD081,true,
+74,TX0071, Meera   Nair ,Meera Nair,1200.00,2026-09-03,paid,ORD081,false,probable_duplicate_transaction
